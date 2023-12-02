@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+}
+
+body {
+    background-image: url(./Source/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #040714;
+    height: 600px;    
+
+}
+
+/*Login Button */
+.login {
+    display: flex;
+    justify-content: end;
+    margin: 30px 60px
+}
+
+.button {
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    text-align: center;
+    margin-right: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #222;
+    cursor: pointer;
+}
+
+/* First Content*/ 
+.container {
+
+}
+
+.disney-logo {
+    height: 100px;
+    margin-left: 100px;
+}
+
+.content1-t {
+    margin-left: 100px;
+}
+.content1-tittle {
+    color: white;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.oferta{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6421ff;
+    height: 60px;
+    width: 530px;
+    text-align: center;
+    margin: 20px 0 20px 100px;
+    border-radius: 8px;
+    text-decoration: none;    
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color:white;
+    background-color: #6421ff;
+}
+
+.oferta:hover {
+    background-color: #7326FF;
+}
+
+.apenas {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    margin: 0 0 0 100px;
+}
+
+.change-plane {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 200px;
+}
+
+.change-plane h2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.change-plane p {
+    color: rgba(255, 255, 255, 0.849);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
